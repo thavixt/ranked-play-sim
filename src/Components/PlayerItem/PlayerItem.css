@@ -1,0 +1,63 @@
+.playerItem-container {}
+.playerItem {
+    background-color: red;
+    /* box-shadow: 2px 5px 10px lightgray; */
+    color: whitesmoke;
+    padding: 0.5em;
+    cursor: pointer;
+}
+.playerItem:hover > .uid {
+    text-decoration: underline;
+}
+
+
+
+/* Tier colors */
+.playerItem.default {
+    background-color: transparent;
+    color: rgba(30, 30, 30, 0.8);
+}
+.playerItem.tier1 {
+    background-color: rgb(165, 120, 55);
+}
+.playerItem.tier2 {
+    color: rgb(30, 30, 30);
+    background-color: rgb(180, 180, 180);
+}
+.playerItem.tier3 {
+    color: rgb(30, 30, 30);
+    background-color: rgb(255, 200, 0);
+}
+.playerItem.tier4 {
+    background-color: rgb(85, 125, 240);
+}
+.playerItem.tier5 {
+    background-color: rgb(160, 10, 220);
+}
+.playerItem.tier6 {
+    background-color: rgb(100, 100, 100);
+}
+.playerItem.tier7 {
+    background-color: rgb(30, 30, 30);
+}
+
+
+
+.playerItem p {
+    padding: 0!important;
+    margin: 0!important;
+}
+.playerItem .uid {
+    font-family: monospace;
+    font-size: 1em;
+    font-weight: bold;
+}
+.playerItem .rating {
+    font-size: 0.8em;
+}
+.playerItem .winrate {
+    font-size: 0.8em;
+}
+.playerItem .played {
+    font-size: 0.8em;
+}

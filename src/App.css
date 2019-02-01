@@ -1,0 +1,28 @@
+.App {
+  font-size: 14px;
+  margin: auto;
+  max-width: 800px;
+}
+
+.App-title {
+    margin: 0.5em;
+}
+
+
+.uk-notification {
+    width: 15em !important;
+}
+.uk-notification-message {
+    font-size: 1em !important;
+    padding: 0.5em 0.8em !important;
+    border-radius: 2px !important;
+    background-color: rgb(53, 53, 53) !important;
+}
+.uk-notification-close {
+    top: 10px !important;
+    color: white !important;
+}
+
+.uk-button {
+    font-variant-caps: all-small-caps !important;
+}

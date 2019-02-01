@@ -1,0 +1,11 @@
+.playerList-container {
+
+}
+
+.playerList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(9em, 1fr) ) ;
+    grid-gap: 0.5em;
+
+    margin: 1em 3em;
+}

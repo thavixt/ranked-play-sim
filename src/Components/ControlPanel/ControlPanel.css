@@ -1,0 +1,39 @@
+.ControlPanel {}
+/*.ControlPanel > .grid button {
+    display: block;
+    margin: 10px auto !important;
+} */
+.ControlPanel .uk-button-group {
+    display: block;
+    text-align: center;
+}
+
+.ControlPanel button, .ControlPanel label.uk-button {
+    margin: 5px 1em !important;
+}
+
+button.start-button:not(:disabled) {
+    background: #53bb3c !important;
+}
+button.start-button:not(:disabled):hover {
+    background: #50af3b !important;
+}
+
+
+.stats p {
+    margin: 0;
+}
+
+.tab-switcher {
+    justify-content: center
+}
+.tab-switcher > li > a {
+    border-bottom-width: 3px;
+}
+
+
+.control-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+    grid-gap: 0 0;
+}

@@ -1,0 +1,11 @@
+.TierChartList-container {
+    /* margin: 2em; */
+}
+
+.TierChartList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+    grid-gap: 0em;
+
+    margin: 1em 3em;
+}

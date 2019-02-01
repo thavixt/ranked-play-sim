@@ -1,0 +1,11 @@
+.DistributionChart-container {
+
+}
+
+.DistributionChart {
+    margin: auto;
+    width: 100%;
+    height: 14em;
+}
+
+.DistributionChart canvas { }

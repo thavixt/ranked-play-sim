@@ -1,0 +1,44 @@
+.seasonContainer .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+    grid-gap: 0em;
+}
+
+.seasonContainer .stats > p {
+    margin: 1em 0;
+}
+.seasonContainer .stats > p > span {
+    font-size: 2em;
+    font-weight: bold;
+    display: block !important;
+}
+
+
+.seasonContainer .cover {
+    background-color: rgba(0, 0, 0, 0.8);
+    
+    display: block; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    text-align: center;
+
+    position: fixed; /* Sit on top of the page content */
+    top: 0; left: 0; right: 0; bottom: 0;
+    transition: 0.2s opacity ease-in-out;
+}
+.seasonContainer .cover.active {
+    opacity: 1;
+    z-index: 2000;
+}
+.seasonContainer .cover.hidden {
+    opacity: 0;
+    z-index: -1; /* Hide behind the page by default */
+}
+
+.seasonContainer .cover .status {
+    color: whitesmoke !important;
+    position: relative;
+    top: 10em;
+
+    font-size: 3em;
+}
